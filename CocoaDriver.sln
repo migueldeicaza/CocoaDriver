@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocoaDriver", "CocoaDriver\CocoaDriver.csproj", "{42C2A867-DC5C-4455-B323-9B1B2910B091}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocoaHost", "CocoaHost\CocoaHost.csproj", "{06BF1D67-D05C-4738-B3F7-9ADF306B75E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +15,9 @@ Global
 		{42C2A867-DC5C-4455-B323-9B1B2910B091}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42C2A867-DC5C-4455-B323-9B1B2910B091}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42C2A867-DC5C-4455-B323-9B1B2910B091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06BF1D67-D05C-4738-B3F7-9ADF306B75E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06BF1D67-D05C-4738-B3F7-9ADF306B75E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06BF1D67-D05C-4738-B3F7-9ADF306B75E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06BF1D67-D05C-4738-B3F7-9ADF306B75E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

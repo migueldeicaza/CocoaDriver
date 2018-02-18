@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Threading;
 using System.Drawing;
+using AppKit;
 
 namespace System.Windows.Forms {
 	internal class XplatUICocoa : XplatUIDriver {
@@ -84,17 +85,20 @@ namespace System.Windows.Forms {
 
 		internal override void ClipboardClose (IntPtr handle)
 		{
-			throw new NotImplementedException ();
+			Console.WriteLine ("MISSING: ClipboardClose");
 		}
 
 		internal override int ClipboardGetID (IntPtr handle, string format)
 		{
-			throw new NotImplementedException ();
+			Console.WriteLine ("MISSING: ClipboardGetID");
+			return 0;
 		}
 
 		internal override IntPtr ClipboardOpen (bool primary_selection)
 		{
-			throw new NotImplementedException ();
+			Console.WriteLine ("MISSING: ClipboardOpen");
+			return IntPtr.Zero;
+
 		}
 
 		internal override object ClipboardRetrieve (IntPtr handle, int id, XplatUI.ClipboardToObject converter)
@@ -299,7 +303,7 @@ namespace System.Windows.Forms {
 
 		internal override IntPtr InitializeDriver ()
 		{
-			throw new NotImplementedException ();
+			return  IntPtr.Zero;
 		}
 
 		internal override void Invalidate (IntPtr handle, Rectangle rc, bool clear)
